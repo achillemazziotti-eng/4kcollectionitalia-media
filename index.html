@@ -1,0 +1,53 @@
+<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>4K Collection Italia</title>
+<link rel="icon" href="img/logo.png"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=IBM+Plex+Sans:wght@400;600&display=swap">
+<style>
+/* Layout: a single narrow column of disc "spines", one per title, phone-first */
+:root{
+  --bg:#0c0c10; --surface:#17171d; --line:#2a2a34; --fg:#f2f2f4; --muted:#a3a3b0; --gold:#d4af37;
+  --display:"Big Shoulders Display",Impact,"Arial Narrow",sans-serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,sans-serif;
+  color-scheme:dark;
+}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.5}
+.wrap{max-width:560px;margin:0 auto;padding-inline:16px;padding-block:40px 56px;display:grid;gap:28px}
+header{display:grid;gap:10px;text-align:left}
+.logo{font-family:var(--display);font-weight:900;font-size:clamp(56px,16vw,88px);line-height:.9;letter-spacing:.01em;text-wrap:balance}
+.logo span{color:var(--gold);display:block;font-size:.42em;letter-spacing:.12em}
+.tag{color:var(--muted)}
+.sec{font-family:var(--display);font-weight:700;font-size:15px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);border-bottom:1px solid var(--line);padding-bottom:8px}
+.list{display:grid;gap:12px}
+a.item{display:grid;grid-template-columns:8px 1fr auto;gap:16px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px 16px 16px 0;color:inherit;text-decoration:none;transition:border-color .15s}
+a.item:hover,a.item:focus-visible{border-color:var(--gold);outline:none}
+.spine{align-self:stretch;background:var(--gold);border-radius:6px 0 0 6px}
+.info{min-width:0;display:grid;gap:2px}
+.title{font-family:var(--display);font-weight:700;font-size:26px;line-height:1.1}
+.meta{color:var(--muted);font-size:14px}
+.date{font-variant-numeric:tabular-nums;font-size:13px;font-weight:600;color:var(--gold);text-transform:uppercase;letter-spacing:.06em}
+.go{font-weight:600;font-size:14px;color:var(--bg);background:var(--gold);padding:8px 12px;border-radius:4px;white-space:nowrap}
+footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:16px}
+@media (prefers-reduced-motion:reduce){a.item{transition:none}}
+</style></head><body>
+
+<div class="wrap">
+  <header>
+    <div class="logo">4K<span>COLLECTION ITALIA</span></div>
+    <p class="tag">Edizioni home video 4K UHD in Italia: uscite, steelbook e preordini.</p>
+  </header>
+
+  <section class="list" aria-labelledby="s1">
+    <h2 class="sec" id="s1">In preordine</h2>
+    <a class="item" href="https://link.amazon/B02E4JYGp" target="_blank" rel="noopener sponsored">
+      <span class="spine"></span>
+      <span class="info">
+        <span class="date">Uscita 15 dicembre 2026</span>
+        <span class="title">Scream 30° Anniversario</span>
+        <span class="meta">Collector's Edition · 4K UHD + Blu-ray · ITA</span>
+      </span>
+      <span class="go">Amazon</span>
+    </a>
+  </section>
+
+  <footer>In qualità di Affiliato Amazon ricevo un guadagno dagli acquisti idonei. I prezzi e le date possono cambiare: fa fede la pagina Amazon.</footer>
+</div>
+</body></html>
