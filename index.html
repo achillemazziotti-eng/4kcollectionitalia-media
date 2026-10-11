@@ -25,6 +25,10 @@ a.item:hover,a.item:focus-visible{border-color:var(--gold);outline:none}
 .meta{color:var(--muted);font-size:14px}
 .date{font-variant-numeric:tabular-nums;font-size:13px;font-weight:600;color:var(--gold);text-transform:uppercase;letter-spacing:.06em}
 .go{font-weight:600;font-size:14px;color:var(--bg);background:var(--gold);padding:8px 12px;border-radius:4px;white-space:nowrap}
+.store{display:grid;gap:4px;background:var(--gold);color:var(--bg);border-radius:6px;padding:16px;text-decoration:none}
+.store b{font-family:var(--display);font-size:26px;line-height:1.1}
+.store span{font-size:14px}
+.store:hover,.store:focus-visible{outline:2px solid var(--fg);outline-offset:2px}
 footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:16px}
 @media (prefers-reduced-motion:reduce){a.item{transition:none}}
 </style></head><body>
@@ -34,6 +38,11 @@ footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);paddin
     <div class="logo">4K<span>COLLECTION ITALIA</span></div>
     <p class="tag">Edizioni home video 4K UHD in Italia: uscite, steelbook e preordini.</p>
   </header>
+
+  <a class="store" href="https://www.amazon.it/shop/paginafaceb0e" target="_blank" rel="noopener sponsored">
+    <b>La mia vetrina Amazon</b>
+    <span>Liste con i prodotti che uso davvero: 4K, accessori per collezionisti, Pokémon TCG</span>
+  </a>
 
   <section class="list" aria-labelledby="s1">
     <h2 class="sec" id="s1">In preordine</h2>
